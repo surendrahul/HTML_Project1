@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    background-color: rgb(40,40,40);
+}
+#header-container{
+    color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+
+}
+#header-container h1{
+    margin-left: 20px;
+}
+#header-container ul{
+    list-style: none;
+    display: flex;
+}
+#header-container ul li{
+    margin-right: 20px;
+}
+#header-container ul li a{
+    text-decoration: none;
+    color: white;
+}
+#main_section{
+    background-image: url(image1.jpg);
+    height: 500px;
+    background-size: auto;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#main_page{
+    background-color: rgba(10, 10, 10, 0.5);
+    padding: 20px;
+}
+.a_as_button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #ff4a00;
+    display: inline-block;
+    transition: background-color 0.5s;
+}
+.a_as_button:hover{
+    background-color: #d64b2a;
+}
+#Service{
+    background-color: white;
+    padding: 20px;
+}
+#Service h2{
+    color: blue;
+}
+#Service ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+#Service li {
+    margin-bottom: 10px;
+}
+#About{
+    padding: 20px;
+}
+#About h2{
+    color: green;
+}
+
+#Contact{
+    background-color: white;
+    padding: 20px;
+}
+#Contact h2{
+    color: red;
+}
+#Contact p:hover,
+#Service li:hover{
+    color: #0056b3;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(40,40,40);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
